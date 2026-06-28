@@ -1,0 +1,21 @@
+{
+  "short_name": "Alex",
+  "name": "Alex - J",
+  "description": "Portafolio Web de Alexander",
+  "dir": "auto",
+  "lang": "es",
+  "background_color": "#dedede",
+  "theme_color": "#888",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": ".",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "Img/AlexIcon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
