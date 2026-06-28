@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#414d81">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="192×192" href="Img/AlexIcon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="AlexFavicon.png">
+    <title>ALEX-J</title>
+    <style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        font-family: font-name;
+        font-size: clamp(12px, 1.2vw, 30px);
+        overscroll-behavior: none;
+        scroll-behavior: smooth;
+        width: 100%;
+        background: #000000;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(105, 105, 105, 1) 100%);
+    }
+
+    @font-face {
+        font-family: 'font-name';
+        src: url('Fuentes/Michroma-Regular.ttf') format('truetype');
+        font-display: swap;
+    }
+    </style>
+</head>
+<body>
+<div id="brillo"></div>
+<!--------------------- SECCIONES ----------------->
+    <header>
+        <nav>
+            <ul>
+                <li class="li-input"><input type="checkbox"></li>
+                <li><a href="#section2">SOBRE MÍ</a></li>
+                <li><a href="#tecnologias">TECNOLOGÍAS</a></li>
+                <li><a href="#section3">PROYECTOS</a></li>
+                <li><a href="#section4">CONTACTO</a></li>
+            </ul>
+            <div class="name">ALEX-J</div>
+        </nav>
+    </header>
+    <div id="background-alex"></div>
+
+    <section id="section1" class="seccion"> <!---- FONDO Y NOMBRE --->
+        <div class="container-name">
+            <h1 id="name-main">ALEX-J</h1>
+        </div>
+   </section>
+   
+   <main id="section2" class="seccion"> <!---- SOBRE MI --->
+        <div id="container-img-alex">   
+            <img src="Img/Alex.jpg">
+        </div>
+        <h2>SOBRE MÍ</h2>
+        <p>Soy un chico de 17 años apasionado por el ciclismo, la calistenia, el cine, la música y la programación web, recién estoy empezando en está última, sobre todo en el apartado front-end, por ahora. He hecho varios proyectos pequeños (para aprender, más que nada), pero dentro de poco espero empezar a hacer cosas más grandes y útiles.</p>
+        <h2 id="tecnologias">TECNOLOGÍAS</h2>
+        <div class="container-technologies">
+            <div class="technology"></div>
+            <div class="technology"></div>
+            <div class="technology"></div>
+            <div class="technology"></div>
+        </div>
+   </main>
+   
+   <section id="section3" class="seccion"> <!---- PROYECTOS --->
+   <h2>PROYECTOS</h2>
+   <div class="container-projects">
+        <div class="project">TITULO PROYECTO</div>
+        <div class="project">TITULO PROYECTO</div>
+        <div class="project">TITULO PROYECTO</div>
+        <div class="project">TITULO PROYECTO</div>
+        <div class="project">TITULO PROYECTO</div>
+   </div>
+   </section>
+   
+   <section id="section4" class="seccion"> <!---- CONTACTO --->
+   <h2>CONTACTO</h2>
+        <div class="container-contact">
+            <div class="contact-item"><a href="alexander.j18508@gmail.com">Gmail</a>
+                <img src="Img/Logos/Gmail.png" alt="Logo-Gmail"></div>
+        </div>
+   </section>
+   
+   <footer id="section5" class="seccion">
+        DESARROLLADO POR @ALEX-J
+   </footer>
+<!--------------------- SCRIPT ----------------->
+    <script src="script.js"></script>
+</body>
+</html>
